@@ -7,3 +7,6 @@ import {
 router.route('/random').get(getRandomQuestions);
 
 export default router;
+
+
+// Random question controller.
