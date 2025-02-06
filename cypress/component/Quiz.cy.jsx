@@ -2,6 +2,7 @@ import Quiz from "../../client/src/components/Quiz"
 
 describe('Quiz Component', () => {
   beforeEach(() => {
+    // Gets random question.
     cy.intercept({
         method: 'GET',
         url: '/api/questions/random'
@@ -24,13 +25,14 @@ describe('Quiz Component', () => {
     cy.mount(<Quiz />);
     cy.get('button').contains('Start Quiz').click();
 
-    // Answer questions
+    // Answer questions to complete the quiz
     cy.get('button').contains('1').click();
 
     // Verify the quiz completion
     cy.get('.alert-success').should('be.visible').and('contain', 'Your score');
   });
 
+  // Restarting quiz on click.
   it('should restart the quiz after completion', () => {
     cy.mount(<Quiz />);
     cy.get('button').contains('Start Quiz').click();

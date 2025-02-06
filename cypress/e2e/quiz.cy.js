@@ -9,6 +9,7 @@ describe('Quiz Component', () => {
     cy.get('h2').should('not.be.empty');
   });
 
+  // Complets quiz.
   it('should answer questions and complete the quiz', () => {
     // Start the quiz
     cy.get('button').contains('Start Quiz').click();
