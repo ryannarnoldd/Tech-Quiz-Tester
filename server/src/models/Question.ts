@@ -10,6 +10,7 @@ interface IQuestion extends Document {
   answers: IAnswer[];
 }
 
+// Takes question and answer.
 const QuestionSchema = new Schema<IQuestion>({
   question: { type: String, required: true },
   answers: [
