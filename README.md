@@ -7,7 +7,7 @@ This is a Tech Quiz Test Suite for Module 19: Testing. The purpose of this proje
 
 In this project, Cypress has been configured for testing, ensuring the application runs reliably under various conditions.
 
-DEPLOYED LINK: https://mern-book-tracker.onrender.com
+DEPLOYED LINK: https://drive.google.com/file/d/1j2cmUXXxn_UH93b6cbNMVXqK2kK_7fmN/view 
 
 ## Table of Contents
 
@@ -34,6 +34,10 @@ Once npm run develop is run, the user can navigate to the browser to interact wi
 
 To run tests, use the following command: `npm run test`
 
+<img width="707" alt="Screenshot 2025-02-06 at 3 38 53 PM" src="https://github.com/user-attachments/assets/23cbe3be-ccfd-46e1-8ba6-5201d05892e7" />
+
+<img width="692" alt="Screenshot 2025-02-06 at 3 39 15 PM" src="https://github.com/user-attachments/assets/119fd2a3-6a12-4c0c-8a43-03df4c28e291" />
+
 ## Contributing
 
 Ryan Arnold is the sole contributor to this project.
@@ -46,12 +50,16 @@ The license used is MIT. Here is the link to get detailed information for this l
 
 The following tests were conducted to ensure the reliability of the application:
 
+<img width="874" alt="Screenshot 2025-02-06 at 3 39 45 PM" src="https://github.com/user-attachments/assets/7a21d7be-6869-4d79-aa73-63996d4c0f88" />
+
 Component tests for the Quiz component
+
+<img width="879" alt="Screenshot 2025-02-06 at 3 40 03 PM" src="https://github.com/user-attachments/assets/834918a3-12fa-4ff7-85be-12ff5ad7b089" />
+
 
 End-to-end tests for the entire quiz flow
 
-Here are a few test results:
-
+<img width="1053" alt="Screenshot 2025-02-06 at 3 40 20 PM" src="https://github.com/user-attachments/assets/2a6d60c5-250e-414c-805c-4285bf3c75ff" />
 
 ## Questions
 
