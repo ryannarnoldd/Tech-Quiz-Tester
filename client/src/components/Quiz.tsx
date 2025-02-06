@@ -3,7 +3,7 @@ import type { Question } from '../models/Question.js';
 import { getQuestions } from '../services/questionApi.js';
 
 const Quiz = () => {
-  const [questions, setQuestions] = useState<Question[]>([]);
+  const [questions,  setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [quizCompleted, setQuizCompleted] = useState(false);
@@ -14,7 +14,7 @@ const Quiz = () => {
       const questions = await getQuestions();
 
       if (!questions) {
-        throw new Error('something went wrong!');
+        throw new Error('something wrong!');
       }
 
       setQuestions(questions);
@@ -68,6 +68,7 @@ const Quiz = () => {
     );
   }
 
+  // No questions (left)
   if (questions.length === 0) {
     return (
       <div className="d-flex justify-content-center align-items-center vh-100">
